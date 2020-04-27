@@ -1,0 +1,129 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1, user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Meet Janilawy</title>
+    <link rel="shortcut icon" href="pics/favicon.png" type="image/png">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!--  <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+  <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/ libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+    <link rel="stylesheet"
+   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    <!--google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Lora:400, 700|Roboto+Slab:400, 700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header> 
+        <div class="logo">
+            <a href='#home'><img src="pics/lawal.jpg" alt="My logo tag"></a>        
+        </div> 
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>  
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+               <!--<li class="nav__item"><a href="#work" class="nav__link">My Work</a></li> -->
+                <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+            </ul> 
+        </nav> 
+    </header>
+    <!--introduction-->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro" data-aos="fade-left" data-aos-delay="300">
+            Hi, I'm <strong>Janilawy</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro" data-aos="fade-up" data-aos-delay="300">Front-End Developer</p>
+        <img src="pics/janilawy2.jpg" alt="a picture of janilawy pics" class="intro__img" data-aos="fade-right" data-aos-delay="300">
+    </section>
+    <!--My services-->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--my-services" data-aos="fade-right" data-aos-delay="300">What I do</h2>
+        <div class="services">
+            <div class="service" data-aos="fade-in" data-aos-delay="600">
+                <h3>Web Design + Development</h3>
+                <p>I'm probably not the typical web developer tailored around creating bad/ugly User experience but build product with great User experiences.I'm an Engineer valued for driving high-performance accessible web experiences. I design quality, user-friendly and scalable products regardless of stack.Not withstanding I design cool stuff.</p> 
+            </div> <!--/ service-->
+
+            <div class="service" data-aos="fade-right" data-aos-delay="900">
+                <h3>Digital Marketing</h3>
+                <p>As a digital marketer i am responsible for developing,implementing and managing marketing campaigns that promote a company and its products and/or services.I play a major role in enhancing brand awareness within the digital space as well as driving website traffic with the best SEO pratices and acquiring leads/customers.</p>
+            </div> <!--/ service-->
+
+            <div class="service" data-aos="fade-right" data-aos-delay="1200">
+                <h3>WordPress Design</h3>
+                <p>I build & design cool stuff with wordpress.Alway's Love making design looks simple and easily accessible for user with the latest and light-weight pluggins used to add great functionalities and interaction on web.</p>
+            </div> <!--/ service-->
+        </div> <!--/ services-->
+
+        <a href="#contact" class="btn" data-aos="fade-up" data-aos-delay="1200">Hire Me</a>
+    </section>
+
+    <!--About Me-->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about-me" data-aos="fade-in" data-aos-delay="300">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about" data-aos="fade-right" data-aos-delay="600">I'm a software engineer who build and design products with great user experiences</p>
+
+        <div class="about-me__body" data-aos="fade-up" data-aos-delay="900">
+            <p>I'm obsessed with making things better. I've been in the business of creating during my school days. After graduating from Ecotes University,I've been actively involved in the web design community for the past 6years. I've designed websites for small businesses, corporations, nonprofits, churches, musicians and more. I also started a blog,where I share inspiration, tutorials, and resources</p>
+            
+            <p>My specialty is full website strategy, design and development, making pixel magic in photoshop and turning it into beautiful, semantic HTML & CSS. My interests, however, extend beyond the web and I love helping people with branding,design and marketing strategy.I even love making designs move by creating professional motion graphics and video.</p>
+            
+            <p>Currently am available for remote job or a full time employment role.You want us to work together? you should contact <a href="#contact" class="Find Me">me</a></p>
+        </div>
+
+
+        <img src="pics/janilawy2.jpg" alt="janilawy leaning against a bus" class="about-me__img" data-aos="fade-left" data-aos-delay="1200">
+    </section>
+    
+    <section class="my-contact" id="contact" data-aos="fade-up" data-aos-delay="300">
+        <h2 class="section__title--my-contact">Send me a message</h2>
+            <p class="section__subtitle section__subtitle--my-contact">Feel free to message me</p>
+        
+            <form 
+            action="https://script.google.com/macros/s/AKfycbwEpSK-QZ2-p0s4E2eGoIV4Eup-A1CIg4GIPFpC/exec"
+            method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name"  name="name" placeholder="Enter Your name...." required>
+                <label for="Email">Email:</label>
+                <input type="email" id="email"  name="email" placeholder="Enter Your email...." required>
+                <label for="subject">Message:</label>
+                <textarea name="subject" id="subject" cols="10" rows="10"></textarea>
+                <input type="submit" value="Send Message">
+        </div>
+        </section>
+        
+    <!-- footer-->
+    <footer class="footer"data-aos="fade-down" data-aos-delay="300" >
+        <p class="footer2">SAY HELLO</p>
+        <a href="mailto:janilawy@gmail.com" class="footer-link">Mail</a>
+        <a class="social-list__link">
+        <i class="fas fa-mail-bulk"></i>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://linkedin.com/in/janilawy/">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://twitter.com/janilawy">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/janilawy">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+        </ul>
+        <p>&copy;2020 Janilawy</p> 
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
